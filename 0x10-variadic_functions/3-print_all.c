@@ -42,4 +42,13 @@ printf("%s%s", sep, str);
 break;
 default:
 i++;
+continue;
+}
+sep = ", ";
+i++;
+}
+}
 
+printf("\n");
+va_end(list);
+}
